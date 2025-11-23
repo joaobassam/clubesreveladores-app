@@ -14,11 +14,20 @@ st.title("📊 Dashboard de Jogadores, Clubes e Minutagem")
 
 
 # =========================
+# FUNÇÃO FONTE DOS DADOS
+# =========================
+def fonte_dados():
+    st.markdown(
+        "[**FONTE DOS DADOS: www.ogol.com.br**](https://www.ogol.com.br)"
+    )
+
+
+# =========================
 # CARREGAR E COMBINAR DADOS
 # =========================
 @st.cache_data
 def carregar_dados(path_jogadores: str, path_clubes: str, path_minutos: str):
-    # Lê os CSVs (separador vírgula)
+    # Lê os CSVs (separador vírgula por padrão)
     df_jog = pd.read_csv(path_jogadores)
     df_clu = pd.read_csv(path_clubes)
     df_min = pd.read_csv(path_minutos)
@@ -171,11 +180,6 @@ tab_geral, tab_jogadores, tab_clubes_rev, tab_campeonatos = st.tabs(
     ["Visão Geral", "Jogadores", "Clubes reveladores", "Campeonatos"]
 )
 
-# Função fonte dados (para reaproveitar)
-def fonte_dados():
-    st.markdown(
-        "[**FONTE DOS DADOS: www.ogol.com.br**](https://www.ogol.com.br)"
-    )
 
 # =========================
 # 1) VISÃO GERAL
@@ -218,7 +222,6 @@ with tab_geral:
     # ---------- Nova seção: Top 5 por Campeonato/Ano ----------
     st.markdown("### 🏅 Top 5 clubes reveladores por Campeonato/Ano")
 
-    # agrupa por campeonato/ano/clube
     camp_ano_clube = (
         df_filtrado
         .groupby(["Campeonato", "Ano", "Clube Revelador"])["Minutos"]
@@ -248,7 +251,8 @@ with tab_geral:
                 df_ca = df_ca[["Posição", "Medalha", "Clube Revelador", "Minutos", "% do total"]]
 
                 st.markdown(f"**Ano {int(ano)}**")
-                st.dataframe(df_ca.style.hide_index(), use_container_width=True)
+                st.dataframe(df_ca.reset_index(drop=True), use_container_width=True)
+
 
 # =========================
 # 2) JOGADORES (seleção por Nome + ID)
@@ -313,7 +317,8 @@ with tab_jogadores:
             st.markdown("### Detalhamento por campeonato/ano/clube")
             df_jog_view = df_jog[["Ano", "Campeonato", "Clube Atual", "Minutos"]]\
                            .sort_values(["Ano", "Campeonato"])
-            st.dataframe(df_jog_view.style.hide_index(), use_container_width=True)
+            st.dataframe(df_jog_view.reset_index(drop=True), use_container_width=True)
+
 
 # =========================
 # 3) CLUBES REVELADORES
@@ -380,7 +385,7 @@ with tab_clubes_rev:
                 .reset_index()
                 .sort_values(["Ano", "Minutos"], ascending=[True, False])
             )
-            st.dataframe(df_jogs_clube.style.hide_index(), use_container_width=True)
+            st.dataframe(df_jogs_clube.reset_index(drop=True), use_container_width=True)
 
             st.markdown("### Minutos dos formados por clube em que atuaram")
             by_clube_atual = (
@@ -389,7 +394,8 @@ with tab_clubes_rev:
                 .reset_index()
                 .sort_values("Minutos", ascending=False)
             )
-            st.dataframe(by_clube_atual.style.hide_index(), use_container_width=True)
+            st.dataframe(by_clube_atual.reset_index(drop=True), use_container_width=True)
+
 
 # =========================
 # 4) CAMPEONATOS
@@ -536,7 +542,7 @@ with tab_campeonatos:
                     st.dataframe(
                         df_rank.style.applymap(
                             highlight_variation, subset=["Δ Posição"]
-                        ).hide_index(),
+                        ),
                         use_container_width=True
                     )
 
@@ -594,7 +600,7 @@ with tab_campeonatos:
                 st.dataframe(
                     comp.style.applymap(
                         highlight_variation, subset=["Δ Posição"]
-                    ).hide_index(),
+                    ),
                     use_container_width=True
                 )
 
@@ -606,4 +612,4 @@ with tab_campeonatos:
         df_det = df_camp[["Ano", "Clube Revelador", "Clube Atual", "Nome Jogador", "Minutos"]]\
                  .sort_values(["Ano", "Clube Revelador", "Clube Atual", "Nome Jogador"])
 
-        st.dataframe(df_det.style.hide_index(), use_container_width=True)
+        st.dataframe(df_det.reset_index(drop=True), use_container_width=True)
