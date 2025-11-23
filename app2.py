@@ -325,6 +325,8 @@ with tab_jogadores:
                 .reset_index()
             )
             by_ano = by_ano.dropna(subset=["Ano"]).sort_values("Ano")
+
+            # eixo categórico de fato
             by_ano["Ano_str"] = by_ano["Ano"].astype(int).astype(str)
 
             fig_j = px.bar(
@@ -334,6 +336,7 @@ with tab_jogadores:
                 title=f"Minutos por ano — {nome_sel}",
                 labels={"Ano_str": "Ano"}
             )
+            fig_j.update_xaxes(type="category")  # força eixo categórico
             st.plotly_chart(fig_j, use_container_width=True)
 
             st.markdown("### Detalhamento")
@@ -389,6 +392,7 @@ with tab_clubes_rev:
                 title=f"Minutos por ano — formados em {clube_sel}",
                 labels={"Ano_str": "Ano"}
             )
+            fig_cr.update_xaxes(type="category")  # força eixo categórico
             st.plotly_chart(fig_cr, use_container_width=True)
 
             # ------------------------------------------
