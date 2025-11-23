@@ -12,13 +12,6 @@ st.set_page_config(
 
 st.title("📊 Dashboard de Jogadores, Clubes e Minutagem")
 
-st.markdown("""
-Este app combina **3 bases CSV**:
-
-1. **jogadores.csv**: Jogador, ID, Clube Revelador  
-2. **clubes.csv**: Clube, País  
-3. **minutos.csv**: Campeonato, Ano, Jogador, ID, Clube, Minutos  
-""")
 
 # =========================
 # CARREGAR E COMBINAR DADOS
@@ -29,6 +22,11 @@ def carregar_dados(path_jogadores: str, path_clubes: str, path_minutos: str):
     df_jog = pd.read_csv(path_jogadores)
     df_clu = pd.read_csv(path_clubes)
     df_min = pd.read_csv(path_minutos)
+
+    # Remove possíveis colunas de índice salvas no CSV (ex: 'Unnamed: 0')
+    df_jog = df_jog.loc[:, ~df_jog.columns.str.contains(r"^Unnamed")]
+    df_clu = df_clu.loc[:, ~df_clu.columns.str.contains(r"^Unnamed")]
+    df_min = df_min.loc[:, ~df_min.columns.str.contains(r"^Unnamed")]
 
     # Renomeia para nomes internos mais fáceis
     j = df_jog.rename(columns={
@@ -142,7 +140,7 @@ except Exception as e:
     st.stop()
 
 # =========================
-# FILTROS GERAIS
+# FILTROS GERAIS (sidebar)
 # =========================
 st.sidebar.header("🔍 Filtros Globais")
 
@@ -167,17 +165,23 @@ if pais_atual_sel and "(Todos)" not in pais_atual_sel:
     df_filtrado = df_filtrado[df_filtrado["pais_clube_atual"].isin(pais_atual_sel)]
 
 # =========================
-# MENU PRINCIPAL
+# TABS PRINCIPAIS (visões)
 # =========================
-aba = st.sidebar.radio(
-    "Escolha a visão:",
+tab_geral, tab_jogadores, tab_clubes_rev, tab_campeonatos = st.tabs(
     ["Visão Geral", "Jogadores", "Clubes reveladores", "Campeonatos"]
 )
+
+# Função fonte dados (para reaproveitar)
+def fonte_dados():
+    st.markdown(
+        "[**FONTE DOS DADOS: www.ogol.com.br**](https://www.ogol.com.br)"
+    )
 
 # =========================
 # 1) VISÃO GERAL
 # =========================
-if aba == "Visão Geral":
+with tab_geral:
+    fonte_dados()
     st.subheader("📈 Visão Geral das Bases (com filtros aplicados)")
 
     col1, col2, col3, col4, col5 = st.columns(5)
@@ -211,45 +215,46 @@ if aba == "Visão Geral":
     fig1.update_layout(yaxis={'categoryorder': 'total ascending'})
     st.plotly_chart(fig1, use_container_width=True)
 
-    st.markdown("### 🌍 Minutos por país do clube revelador")
-    pais_rev = (
+    # ---------- Nova seção: Top 5 por Campeonato/Ano ----------
+    st.markdown("### 🏅 Top 5 clubes reveladores por Campeonato/Ano")
+
+    # agrupa por campeonato/ano/clube
+    camp_ano_clube = (
         df_filtrado
-        .groupby("pais_clube_revelador")["Minutos"]
+        .groupby(["Campeonato", "Ano", "Clube Revelador"])["Minutos"]
         .sum()
         .reset_index()
-        .sort_values("Minutos", ascending=False)
     )
-    fig2 = px.bar(
-        pais_rev,
-        x="pais_clube_revelador",
-        y="Minutos",
-        title="Minutos por país do clube revelador",
-    )
-    st.plotly_chart(fig2, use_container_width=True)
 
-    st.markdown("### 🌎 Minutos por país do clube atual")
-    pais_atual = (
-        df_filtrado
-        .groupby("pais_clube_atual")["Minutos"]
-        .sum()
-        .reset_index()
-        .sort_values("Minutos", ascending=False)
-    )
-    fig3 = px.bar(
-        pais_atual,
-        x="pais_clube_atual",
-        y="Minutos",
-        title="Minutos por país do clube atual",
-    )
-    st.plotly_chart(fig3, use_container_width=True)
+    if camp_ano_clube.empty:
+        st.info("Não há dados suficientes para montar o ranking por campeonato/ano com os filtros atuais.")
+    else:
+        for camp in sorted(camp_ano_clube["Campeonato"].unique()):
+            st.markdown(f"#### Campeonato: {camp}")
+            df_c = camp_ano_clube[camp_ano_clube["Campeonato"] == camp].copy()
+            anos_camp = sorted(df_c["Ano"].dropna().unique(), reverse=True)
 
-    with st.expander("Ver amostra da base combinada"):
-        st.dataframe(df_filtrado.head(100))
+            for ano in anos_camp:
+                df_ca = df_c[df_c["Ano"] == ano].copy()
+                total_min = df_ca["Minutos"].sum()
+
+                df_ca = df_ca.sort_values("Minutos", ascending=False).head(5)
+                df_ca["Posição"] = range(1, len(df_ca) + 1)
+                df_ca["Medalha"] = df_ca["Posição"].map(
+                    {1: "🥇", 2: "🥈", 3: "🥉"}
+                ).fillna("")
+                df_ca["% do total"] = (df_ca["Minutos"] / total_min * 100).round(1)
+
+                df_ca = df_ca[["Posição", "Medalha", "Clube Revelador", "Minutos", "% do total"]]
+
+                st.markdown(f"**Ano {int(ano)}**")
+                st.dataframe(df_ca.style.hide_index(), use_container_width=True)
 
 # =========================
 # 2) JOGADORES (seleção por Nome + ID)
 # =========================
-elif aba == "Jogadores":
+with tab_jogadores:
+    fonte_dados()
     st.subheader("🧑‍💼 Visão por Jogador")
 
     df_players = (
@@ -308,22 +313,34 @@ elif aba == "Jogadores":
             st.markdown("### Detalhamento por campeonato/ano/clube")
             df_jog_view = df_jog[["Ano", "Campeonato", "Clube Atual", "Minutos"]]\
                            .sort_values(["Ano", "Campeonato"])
-            st.dataframe(df_jog_view)
+            st.dataframe(df_jog_view.style.hide_index(), use_container_width=True)
 
 # =========================
 # 3) CLUBES REVELADORES
 # =========================
-elif aba == "Clubes reveladores":
+with tab_clubes_rev:
+    fonte_dados()
     st.subheader("🏟️ Visão por Clube Revelador")
 
-    clubes_lista = sorted(df_filtrado["Clube Revelador"].dropna().unique().tolist())
+    # filtro prévio por país do clube revelador
+    paises_clube_rev = sorted(df_filtrado["pais_clube_revelador"].dropna().unique().tolist())
+    pais_clube_rev_sel = st.selectbox(
+        "Filtrar por país do clube revelador",
+        ["(Todos)"] + paises_clube_rev
+    )
+
+    df_clubes_view = df_filtrado.copy()
+    if pais_clube_rev_sel != "(Todos)":
+        df_clubes_view = df_clubes_view[df_clubes_view["pais_clube_revelador"] == pais_clube_rev_sel]
+
+    clubes_lista = sorted(df_clubes_view["Clube Revelador"].dropna().unique().tolist())
 
     if not clubes_lista:
         st.warning("Nenhum clube revelador disponível com os filtros atuais.")
     else:
         clube_sel = st.selectbox("Selecione um clube revelador", clubes_lista)
 
-        df_clube = df_filtrado[df_filtrado["Clube Revelador"] == clube_sel].copy()
+        df_clube = df_clubes_view[df_clubes_view["Clube Revelador"] == clube_sel].copy()
 
         if df_clube.empty:
             st.warning("Nenhum registro encontrado para esse clube revelador com os filtros atuais.")
@@ -363,7 +380,7 @@ elif aba == "Clubes reveladores":
                 .reset_index()
                 .sort_values(["Ano", "Minutos"], ascending=[True, False])
             )
-            st.dataframe(df_jogs_clube)
+            st.dataframe(df_jogs_clube.style.hide_index(), use_container_width=True)
 
             st.markdown("### Minutos dos formados por clube em que atuaram")
             by_clube_atual = (
@@ -372,20 +389,13 @@ elif aba == "Clubes reveladores":
                 .reset_index()
                 .sort_values("Minutos", ascending=False)
             )
-            fig6 = px.bar(
-                by_clube_atual,
-                x="Minutos",
-                y="Clube Atual",
-                orientation="h",
-                title=f"Minutos dos formados em {clube_sel} por clube em que atuaram",
-            )
-            fig6.update_layout(yaxis={'categoryorder': 'total ascending'})
-            st.plotly_chart(fig6, use_container_width=True)
+            st.dataframe(by_clube_atual.style.hide_index(), use_container_width=True)
 
 # =========================
 # 4) CAMPEONATOS
 # =========================
-elif aba == "Campeonatos":
+with tab_campeonatos:
+    fonte_dados()
     st.subheader("🏆 Visão por Campeonato")
 
     campeonatos_lista = sorted(df_all["Campeonato"].dropna().unique().tolist())
@@ -484,45 +494,51 @@ elif aba == "Campeonatos":
         for ano in anos_cron:
             ranking_anual[ano] = ranking_ano_func(ano)
 
-        # Mostrar rankings ano a ano (tabelas separadas)
-        for ano in anos_disp:
-            st.markdown(f"### 🗓️ Ranking — Ano {ano}")
+        # Mostrar rankings ano a ano (tabelas separadas, 2 por linha)
+        for i in range(0, len(anos_disp), 2):
+            cols = st.columns(2)
+            for j in range(2):
+                if i + j >= len(anos_disp):
+                    break
+                ano = anos_disp[i + j]
+                with cols[j]:
+                    st.markdown(f"### 🗓️ Ranking — Ano {ano}")
 
-            df_rank = ranking_anual[ano].copy()
+                    df_rank = ranking_anual[ano].copy()
 
-            # Descobrir ano anterior (cronológico) para comparar
-            idx_cron = anos_cron.index(ano)
-            if idx_cron > 0:
-                ano_ant = anos_cron[idx_cron - 1]
-                df_prev = ranking_anual[ano_ant][["Clube Revelador", "Posição"]]\
-                          .rename(columns={"Posição": "Posição_ant"})
+                    # Descobrir ano anterior (cronológico) para comparar
+                    idx_cron = anos_cron.index(ano)
+                    if idx_cron > 0:
+                        ano_ant = anos_cron[idx_cron - 1]
+                        df_prev = ranking_anual[ano_ant][["Clube Revelador", "Posição"]]\
+                                  .rename(columns={"Posição": "Posição_ant"})
 
-                df_rank = df_rank.merge(df_prev, on="Clube Revelador", how="left")
-                # Δ posição: positivo = melhora (subiu), negativo = piora (caiu)
-                df_rank["Δ Posição"] = df_rank["Posição_ant"] - df_rank["Posição"]
-                df_rank["Δ Posição"] = df_rank["Δ Posição"].astype("Int64")
-            else:
-                df_rank["Posição_ant"] = pd.NA
-                df_rank["Δ Posição"] = pd.Series([pd.NA] * len(df_rank), dtype="Int64")
+                        df_rank = df_rank.merge(df_prev, on="Clube Revelador", how="left")
+                        # Δ posição: positivo = melhora (subiu), negativo = piora (caiu)
+                        df_rank["Δ Posição"] = df_rank["Posição_ant"] - df_rank["Posição"]
+                        df_rank["Δ Posição"] = df_rank["Δ Posição"].astype("Int64")
+                    else:
+                        df_rank["Posição_ant"] = pd.NA
+                        df_rank["Δ Posição"] = pd.Series([pd.NA] * len(df_rank), dtype="Int64")
 
-            # Se filtro de clube revelador estiver ativo, manter só esse clube,
-            # mas usando posição/delta calculados no ranking completo
-            if clube_rev_sel != "(Todos)":
-                df_rank = df_rank[df_rank["Clube Revelador"] == clube_rev_sel]
-            else:
-                # aplicar Top N apenas quando não há filtro de clube
-                if top_n is not None:
-                    df_rank = df_rank.sort_values("Posição").head(int(top_n))
+                    # Se filtro de clube revelador estiver ativo, manter só esse clube,
+                    # mas usando posição/delta calculados no ranking completo
+                    if clube_rev_sel != "(Todos)":
+                        df_rank = df_rank[df_rank["Clube Revelador"] == clube_rev_sel]
+                    else:
+                        # aplicar Top N apenas quando não há filtro de clube
+                        if top_n is not None:
+                            df_rank = df_rank.sort_values("Posição").head(int(top_n))
 
-            df_rank = df_rank[["Posição", "Clube Revelador", "Minutos", "Δ Posição"]]
-            df_rank = df_rank.reset_index(drop=True)
+                    df_rank = df_rank[["Posição", "Clube Revelador", "Minutos", "Δ Posição"]]
+                    df_rank = df_rank.reset_index(drop=True)
 
-            st.dataframe(
-                df_rank.style.applymap(
-                    highlight_variation, subset=["Δ Posição"]
-                ),
-                use_container_width=True
-            )
+                    st.dataframe(
+                        df_rank.style.applymap(
+                            highlight_variation, subset=["Δ Posição"]
+                        ).hide_index(),
+                        use_container_width=True
+                    )
 
         # ===========================================================
         # Comparação entre dois anos (movimentação no ranking)
@@ -578,7 +594,7 @@ elif aba == "Campeonatos":
                 st.dataframe(
                     comp.style.applymap(
                         highlight_variation, subset=["Δ Posição"]
-                    ),
+                    ).hide_index(),
                     use_container_width=True
                 )
 
@@ -590,5 +606,4 @@ elif aba == "Campeonatos":
         df_det = df_camp[["Ano", "Clube Revelador", "Clube Atual", "Nome Jogador", "Minutos"]]\
                  .sort_values(["Ano", "Clube Revelador", "Clube Atual", "Nome Jogador"])
 
-        st.dataframe(df_det, use_container_width=True)
-
+        st.dataframe(df_det.style.hide_index(), use_container_width=True)
