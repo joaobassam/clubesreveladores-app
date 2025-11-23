@@ -117,8 +117,9 @@ def carregar_dados(path_jogadores: str, path_clubes: str, path_minutos: str):
         if col in df_all.columns:
             df_all = df_all.drop(columns=[col])
 
-    # Converte ano para numérico
+    # Converte Ano para inteiro (sem casas decimais)
     df_all["Ano"] = pd.to_numeric(df_all["Ano"], errors="coerce")
+    df_all["Ano"] = df_all["Ano"].round(0).astype("Int64")
 
     return df_all, j_clubes, c
 
@@ -336,7 +337,7 @@ with tab_jogadores:
             st.plotly_chart(fig_j, use_container_width=True)
 
             st.markdown("### Detalhamento")
-            df_det = df_j[["Ano", "Campeonato", "Clube Atual", "Minutos"]]\
+            df_det = df_j[["Ano", "Campeonato", "Clube Atual", "Minutos"]] \
                 .sort_values(["Ano", "Campeonato"])
             st.dataframe(df_det.reset_index(drop=True), use_container_width=True)
 
@@ -390,28 +391,9 @@ with tab_clubes_rev:
             )
             st.plotly_chart(fig_cr, use_container_width=True)
 
-            # Jogadores formados
-            st.markdown("### Jogadores formados neste clube (com minutos, campeonato e ano)")
-            df_jogs = (
-                df_c.groupby(["Nome Jogador", "Ano", "Campeonato", "Clube Atual"])["Minutos"]
-                .sum()
-                .reset_index()
-                .sort_values(["Ano", "Minutos"], ascending=[True, False])
-            )
-            st.dataframe(df_jogs.reset_index(drop=True), use_container_width=True)
-
-            # Clubes onde atuaram
-            st.markdown("### Clubes onde atuaram (minutos somados)")
-            by_atual = (
-                df_c.groupby("Clube Atual")["Minutos"]
-                .sum()
-                .reset_index()
-                .sort_values("Minutos", ascending=False)
-            )
-            st.dataframe(by_atual.reset_index(drop=True), use_container_width=True)
-
             # ------------------------------------------
             # Posição do clube revelador nos campeonatos
+            # (logo abaixo do gráfico)
             # ------------------------------------------
             st.markdown("### 🏅 Posição do clube revelador nos campeonatos")
 
@@ -434,12 +416,12 @@ with tab_clubes_rev:
                     if not linha_clube.empty:
                         pos = int(linha_clube["Posição"].iloc[0])
                         medalha = {1: "🥇", 2: "🥈", 3: "🥉"}.get(pos, "")
+                        pos_fmt = f"{medalha} {pos}" if medalha else str(pos)
 
                         linhas.append({
                             "Campeonato": camp,
                             "Ano": int(ano) if pd.notna(ano) else ano,
-                            "Posição": pos,
-                            "Medalha": medalha
+                            "Posição": pos_fmt
                         })
 
                 if not linhas:
@@ -448,6 +430,26 @@ with tab_clubes_rev:
                     df_pos = pd.DataFrame(linhas)
                     df_pos = df_pos.sort_values(["Ano", "Campeonato"], ascending=[False, True])
                     st.dataframe(df_pos.reset_index(drop=True), use_container_width=True)
+
+            # Jogadores formados
+            st.markdown("### Jogadores formados neste clube (com minutos, campeonato e ano)")
+            df_jogs = (
+                df_c.groupby(["Nome Jogador", "Ano", "Campeonato", "Clube Atual"])["Minutos"]
+                .sum()
+                .reset_index()
+                .sort_values(["Ano", "Minutos"], ascending=[True, False])
+            )
+            st.dataframe(df_jogs.reset_index(drop=True), use_container_width=True)
+
+            # Clubes onde atuaram
+            st.markdown("### Clubes onde atuaram (minutos somados)")
+            by_atual = (
+                df_c.groupby("Clube Atual")["Minutos"]
+                .sum()
+                .reset_index()
+                .sort_values("Minutos", ascending=False)
+            )
+            st.dataframe(by_atual.reset_index(drop=True), use_container_width=True)
 
 
 # =========================================================
@@ -537,11 +539,13 @@ with tab_campeonatos:
 
                     # anexa país e cria coluna "Clube Revelador (País)"
                     df_r = df_r.merge(club_pais, on="Clube Revelador", how="left")
+
                     def make_name(row):
                         if pd.notna(row["pais_clube_revelador"]):
                             return f'{row["Clube Revelador"]} ({row["pais_clube_revelador"]})'
                         else:
                             return row["Clube Revelador"]
+
                     df_r["Clube Revelador (País)"] = df_r.apply(make_name, axis=1)
 
                     return df_r
@@ -604,4 +608,5 @@ with tab_campeonatos:
             )
 
             st.dataframe(df_det.reset_index(drop=True), use_container_width=True)
+
 
