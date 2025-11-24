@@ -803,6 +803,7 @@ Camilo,60848,América-RJ
 Jonathas,60855,Cruzeiro
 Renan Oliveira,60950,Atlético Mineiro
 Renan Rocha,60952,Athletico Paranaense
+Vágner Silva,60953,Desportivo Brasil
 Alan Dzagoev,60985,Krylya Sovetov
 Albin Ekdal,61235,Brommapojkarna
 Leandro Souza,61251,Joinville
@@ -919,6 +920,7 @@ Fernandão,69430,América-RJ
 Bruno Aguiar,69522,Ponte Preta
 Mubarak Wakaso,69732,Elche
 Nicolas Viola,69786,Reggina
+Pana Tachtsidis,69873,AEK
 Michel Macedo,70070,Almería
 Aridane Hernández,70075,AD Ceuta
 Juan Cala,70077,Sevilla
@@ -1127,7 +1129,7 @@ Tinga,84823,Ponte Preta
 Nuno Moreira,84849,Sporting
 Daniel Bragança,84850,Sporting
 Anderson Conceição,84856,Mogi Mirim
-Nando,84861,Atlético Araçatuba
+Nando,84861,Andradina EC
 Luis Ricardo,84866,Vila Nova
 Rafael Chorão,84874,Rio Branco-SP
 Plínio,84876,Matsubara
@@ -1159,6 +1161,7 @@ Mika,85355,UD Leiria
 Marcelo Toscano,85385,Paulista
 Benjamin Moukandjo,85502,KSA
 Marcelinho,85576,Corinthians
+Bruno Barra,85581,Volta Redonda
 Jordi Alba,85728,Valencia
 Danny Latza,85732,Schalke 04
 Dedé,85775,Volta Redonda
@@ -1261,6 +1264,7 @@ Emerson,95021,Gama
 Bruno Silva,95026,Villa Nova-MG
 Gabriel Achilier,95038,LDU de Loja
 Alex Maranhão,95046,Ceará
+Adaílton,95051,Fortaleza
 Douglas,95056,Juventude
 Cicinho,95060,Remo
 Alan Ruschel,95064,Juventude
@@ -1754,6 +1758,7 @@ Elvinho,134164,Tombense
 Hiago,134169,Juventude
 Renan Mota,134171,União São João
 Élber,134174,Cruzeiro
+Héber,134197,Figueirense
 Rodrigo Caio,134256,São Paulo
 Raul Silva,134299,Remo
 Marlon,134306,Tuna Luso
@@ -2263,6 +2268,7 @@ Hakan Çalhanoglu,166278,Karlsruher SC
 Tiago Sá,167098,Sporting Braga
 Artur Jorge,167099,Sporting Braga
 Gianmarco Ferrari,167235,Terme Monticelli
+Otávio Passos,167350,SC Jaraguá
 Valère Germain,167352,Monaco
 Pablo Diogo,167356,Guarani
 Ejike Uzoenyi,167466,Enyimba
@@ -2287,7 +2293,7 @@ Cristiano Piccini,168992,Fiorentina
 Diego Demme,169014,Arminia Bielefeld
 Matt Doherty,169055,Bohemian
 Thiago Mendes,169427,Goiás
-Jean Silva,169609,Atlético Araçatuba
+Jean Silva,169609,Andradina EC
 Davide Zappacosta,169790,Isola Siri
 Caio Bolonhin,170210,Monte Azul
 Matija Nastasic,170344,FK Teleoptik
@@ -2443,6 +2449,7 @@ Kurt Zouma,185687,Saint-Étienne
 Jordan Ferri,185753,Lyon
 Alassane Pléa,185757,Lyon
 Tristan Dingomé,185943,Monaco
+Jorge Benítez,186332,Guaraní-PAR
 Alessio Iovine,186381,Mariano Comense
 Betinho,186440,Remo
 Paulo Sérgio,186444,São José-MA
@@ -2549,6 +2556,7 @@ Soualiho Meité,197672,Auxerre
 Tiémoué Bakayoko,197675,Rennes
 Abdoulaye Touré,197677,Nantes
 Sébastien Haller,197680,Auxerre
+Riza Durmisi,197685,Brondby
 Christian Norgaard,197689,Lyngby BK
 Pierre Hojbjerg,197691,Bayern München
 Yussuf Poulsen,197694,Lyngby BK
@@ -2612,6 +2620,7 @@ Miha Blazic,203200,FC Koper
 Koffi Djidji,203279,Nantes
 Nicolás López,203641,Nacional
 Guillermo Varela,203648,Peñarol
+Diego Zabala,203650,Racing-URU
 André Gomes,204312,Benfica
 Jean Patrick,204793,Mixto
 Éber Bessa,204957,Nacional de Patos de Minas
@@ -3042,6 +3051,7 @@ Elton,250840,Botafogo-SP
 Daniel Cruz,250898,Taboão da Serra
 Luciano Naninho,250910,Bangu
 Rafael Gava,251134,ASA
+Heliardo,251136,Pelotas
 Rafael Longuine,251196,Comercial
 Reis,251205,Remo
 Zhou Tong,251303,Dalian Pro
@@ -3100,6 +3110,7 @@ Hattan Babhir,258043,Al-Ittihad Jeddah
 Yesus Cabrera,258044,La Equidad
 Ryan Hollingshead,258180,FC Dallas
 Johan Mojica,258573,Academia FC
+Larry Vásquez,258586,Academia FC
 Rafael Alcobia,258851,CD Tondela
 Thomas Lemar,258955,Caen
 PK,258981,Bahia
@@ -3108,6 +3119,7 @@ Lautaro Gianetti,259228,Vélez Sarsfield
 Gustavo Sauer,259249,Joinville
 Diego Gomes,259336,Santos
 Mayke,259959,Cruzeiro
+Wallace,259962,Cruzeiro
 Vinícius Freitas,259964,Padova
 Alisson,259968,Cruzeiro
 Juan Narváez,260075,Deportivo Pasto
@@ -3199,6 +3211,7 @@ Gustavo Blanco,268998,Bahia
 Euller,269014,Vitória
 Vitor Bueno,269016,Botafogo-SP
 Ítalo,269031,Bahia
+Diogo Carlos,269035,Amadense
 Miguel Borja,269071,Deportivo Cali
 Alemão,269261,Francisco Beltrão
 Max Walef,269603,Fortaleza
@@ -3235,11 +3248,13 @@ Marwan Mohsen,275493,Petrojet
 Allyson,275557,Nacional-SP
 Felipe Lacerda,275579,Atibaia
 Jhonder Cádiz,275585,Deportivo Petare
+Léo Coelho,275595,Nacional-SP
 Rúben Lameiras,275666,Atvidabergs FF
 Igor Coronado,275755,Bandury United
 Otávio,276060,Internacional
 Afonso,276062,Guarani
 Eduard Sobol,276080,Metalurh Zaporizhya
+Aldair Rodríguez,276234,Alianza Lima
 Jesse Joronen,276451,Fulham
 Ondrej Duda,276473,FC VSS Kosice
 Erick Pulgar,276499,Antofagasta
@@ -3282,6 +3297,7 @@ Christian Gunter,281110,Freiburg
 Léo Baptistão,281228,Rayo Vallecano
 Wout Weghorst,281248,Willem II
 Sam Byram,281302,Leeds United
+Ruan Teixeira,281319,Barra da Tijuca
 Rhys Healey,281473,Connah's Quay
 Kortney Hause,281604,Wycombe Wanderers
 Ivan Provedel,281627,Pisa
@@ -3624,6 +3640,7 @@ Mario Pasalic,334783,Hajduk Split
 Ju Se-Jong,334801,Busan IPark
 Nico Elvedi,335973,Zurich
 Benjamin Bourigeaud,336503,Lens
+Yamil Asad,336854,Vélez Sarsfield
 Recife,338251,Flamengo
 Luan Polli,338252,Flamengo
 Mauro Silva,338288,Quissamã
@@ -3725,6 +3742,7 @@ Borna Barisic,362180,NK Osijek
 Victor Oliveira,362184,Atlético Goianiense
 Filip Bradaric,362207,Hajduk Split
 Milinkovic-Savic,362219,FK Vojvodina
+Sandro Lima,362248,ASEEV
 Carlos Akapo,362284,Huracán Valencia
 Vedat Muriqi,362383,Liria
 Roman Zobnin,362538,Akademiya Tolyatti
@@ -3950,6 +3968,7 @@ Dylan Collard,376942,Lusitano Vildemoinhos
 Fodé Ballo-Touré,377016,PSG
 David Tavares,377102,Benfica
 Samuel Justo,377442,Sporting
+João Pedro,377868,Santa Clara
 Mickaël Malsa,377996,Sochaux
 Jair,378039,Internacional
 Carl Starfelt,378102,Brommapojkarna
@@ -3963,6 +3982,7 @@ Franck Honorat,379397,Nice
 Thapelo Morena,379674,Bloemfontein Celtic
 Dominic Solanke,379874,Chelsea
 Jefferson Lerma,380449,Atlético Huila
+Juan Zuluaga,380464,Independiente Medellín
 Ray Vanegas,380465,Independiente Medellín
 Hans Hateboer,380649,FC Groningen
 Oli McBurnie,380834,Bradford City
@@ -4099,6 +4119,7 @@ Reginaldo,393217,Novoperário-MS
 Andreas Ivan,393223,Stuttgarter Kickers
 Mikael,393225,Pelotas
 Luis Orejuela,393259,Deportivo Cali
+Nilson Castrillón,393260,Deportivo Cali
 Kelvin Osorio,393261,Deportivo Cali
 Adam Armstrong,393321,Newcastle
 Jonjoe Kenny,393441,Everton
@@ -4125,6 +4146,7 @@ Kylian Mbappé,394508,Monaco
 Irvin Cardona,394521,Monaco
 Jack Stacey,394581,Reading
 Lucas Silva,394683,América Mineiro
+Rafael Vitor,394684,Tupi
 Paulo Vitor,394692,Santo André
 Ferreira,394710,Monte Azul
 Niltinho,394723,Nacional-SP
@@ -4205,6 +4227,7 @@ Ramon Menezes,401838,Bahia de Feira
 Pará,401853,Bahia
 Cafu,401985,Flamengo
 Magno,402491,Bangu
+Ezequiel Ham,402628,Argentinos Juniors
 Pasquale Mazzocchi,402703,Bellaria Igea
 Dani Ceballos,402708,Real Betis
 Facundo Castro,402768,Defensor Sporting
@@ -4292,6 +4315,7 @@ Luka Jovic,409324,Crvena Zvezda
 Sander Berge,409342,Asker SK
 Bruno Ramires,409399,Cruzeiro
 Matías Rojas,409448,Cerro Porteño
+Pedro Delvalle,409478,Deportivo Capiatá
 Yuri,409662,Botafogo
 Fede Baschirotto,409680,Legnago Salus
 Cristiano Silva,410269,Vitória das Tabocas
@@ -4339,6 +4363,7 @@ Marvin Schulz,415447,Borussia M'gladbach
 Jonathan Bamba,415507,Saint-Étienne
 Luis Rioja,415510,CD Cabecense
 Jordan Larsson,415546,Hogaborgs BK
+Fernando Martínez,415769,Olimpia
 Walter González,415772,Olimpia
 Javairô Dilrosun,415778,Manchester City
 Miguel Reisinho,415800,Vitória de Guimarães
@@ -4358,6 +4383,7 @@ Ryller,416846,Luverdense
 Roland Sallai,416855,Puskás Akadémia FC
 Sandi Lovrić,416961,Sturm Graz
 Bilel Aouacheria,416972,Saint-Étienne
+Vágner Dias,416979,Gil Vicente
 Murilo,416988,Goiás
 Guilherme Arana,417011,Corinthians
 Rubén Aguilar,417032,Grenoble
@@ -4394,6 +4420,7 @@ Raúl Guti,420512,Real Zaragoza
 Cauly,420525,SC Fortuna Köln
 Adrián Marín,420531,Villarreal
 Tamble Monteiro,420705,Eirense
+Nathan Pelae,420792,Palmeiras
 Jorge Sáenz,420856,Tenerife
 Cristo González,420857,Tenerife
 Alberto Grassi,420877,Atalanta
@@ -4410,6 +4437,7 @@ Erick Varão,421535,Globo FC
 Francesco Gelli,421631,Tuttocuoio
 Alessandro Deiola,421632,Cagliari
 David García,421648,Osasuna
+Kevin Ramírez,421666,Montevideo Wanderers
 Lucas Tocantins,421671,Atlético Diadema
 Barreto,421710,Criciúma
 Iago Maidana,421711,Criciúma
@@ -4444,6 +4472,7 @@ Mile Svilar,423229,Benfica
 Wout Faes,423230,Heerenveen
 Toma Basic,423276,Hajduk Split
 Enis Bardhi,423353,Prespa Birlik
+Jefferson Luis,423385,Resende
 Dennis Hadzikadunic,423439,Malmö
 Kostas Tsimikas,423457,Olympiacos
 José Lazo,423486,Real Madrid
@@ -4691,6 +4720,7 @@ Inácio Santos,446902,FC Porto
 Gabriel Félix,446908,Vasco
 Marcinho,446959,Londrina
 Paulo Henrique,446961,Iraty
+Neto Costa,447017,CSP
 Shamar Nicholson,447055,Boys Town
 Victor Guzmán,447060,Pachuca
 Gustavo Henrique,447098,Ferroviária
@@ -4769,6 +4799,7 @@ Carlos Eduardo,450094,Goiás
 Hélder Morim,450146,Leixões
 Paulinho,450166,Vasco
 Zé Carlos,450174,Varzim
+Henrique Silva,450219,Grêmio Osasco
 Sebastián Salazar,450279,Santa Fé
 Alisson Farias,450280,Internacional
 Isi Camacho,450294,CD Cieza
@@ -4792,6 +4823,7 @@ Gabriel Terra,450733,Duque de Caxias
 Pape Abou Cissé,450754,Ajaccio
 Marc Guehi,450760,Chelsea
 Christian Fassnacht,450761,FC Thalwil
+Joaquín Torres,450781,Newell's Old Boys
 Marc Roca,450922,Espanyol
 Cayo Tenório,450950,Vasco
 Marlon Freitas,451017,Fluminense
@@ -5038,6 +5070,7 @@ Raul,469402,Ceará
 Arthur Cabral,469403,Ceará
 Maximiliano Caufriez,469576,Waasland-Beveren
 Cédric Zesiger,469581,Neuchâteu Xamax
+Wendel,469625,Artsul
 Thomas Isherwood,469668,Bayern München
 Gustavo Salomão,469816,Guarani
 Fabricio Domínguez,469880,Racing Club
@@ -5077,6 +5110,7 @@ César Montes,472594,Monterrey
 Santi Arzamendia,472743,Cerro Porteño
 Tomás Ribeiro,472857,Belenenses
 Benny,473040,Leixões
+Alessio Da Cruz,473050,FC Twente
 Ángelo Araos,473077,Antofagasta
 Patrik,473340,Petrolina
 Simon Banza,473356,Lens
@@ -5116,6 +5150,7 @@ Bruno Rodrigues,475322,Sporting Braga
 Gautier Larsonneur,475340,Brest
 Oumar González,475383,SAS Epinal
 Willian Oliveira,475455,São Mateus
+Lucas Lovat,475460,Avaí
 Éric Curbelo,475479,UD Telde
 Igor Zubeldía,475481,Real Sociedad
 Declan Rice,475595,West Ham
@@ -5411,6 +5446,7 @@ Jordan Zemura,492666,Bournemouth
 Evandro,492757,Grêmio Prudente
 André Luiz,492761,Toledo
 Guilherme,492973,Ponte Preta
+Federico Martínez,493121,Liverpool-URU
 Viti Rozada,493237,Real Oviedo
 Kallyl,493389,Flamengo-SP
 Jules Koundé,493538,Bordeaux
@@ -5457,9 +5493,11 @@ Matheus Miranda,495645,Vasco
 Altay Bayindir,495652,Ankaragücü
 Andrew Gravillon,495694,Benevento
 Salazar,495708,Expresso Rojo
+Radsley,495713,União São João
 Keiller,495932,Internacional
 Fernando Calero,495939,Málaga
 William Amorim,495962,Sumaré
+Rafael Castro,495987,Chapecoense
 Conor Coventry,495999,West Ham
 Daniel Fuzato,496188,Roma
 Artur,496197,Palmeiras
@@ -5536,6 +5574,7 @@ Ferdi Kadioglu,500931,NEC
 Eboué Kouassi,501037,Krasnodar
 Santiago Ascacíbar,501059,Estudiantes
 Pablo García,501077,Liverpool-URU
+Santiago Viera,501078,Liverpool-URU
 Tahith Chong,501114,Manchester United
 Arne Maier,501116,Hertha Berlin
 Frank Onyeka,501247,Midtjylland
@@ -5626,6 +5665,7 @@ Conor Gallagher,507166,Chelsea
 Samuel Grandsir,507436,Troyes
 Bjarki Bjarkason,507444,UMF Afturelding
 Nélson da Luz,507459,1º de Agosto
+Gabriel Bahia,507476,Andradina EC
 Mateus Pivô,507549,Carapebus
 Pablo Rosario,507699,Almere City
 Daniel-Kofi Kyereh,507726,TSV Havelse
@@ -5752,6 +5792,7 @@ Sendeski,516253,União Beltrão
 Kaio,516542,Goianésia
 Gabriel Henrique,516575,Genus
 Hirokazu Ishihara,516720,Shonan Bellmare
+Italo,516868,Villa Nova-MG
 Divine Lunga,516894,Chicken Inn
 Marcelo Benevenuto,517153,Botafogo
 Bill,517157,Flamengo
@@ -5759,6 +5800,7 @@ Tito,517226,Metropolitano
 Bruno Langa,517243,Maxaquense
 Ayoub Boucheta,517715,Racing Casablanca
 Willean Lepo,517787,Macaé
+Zé Carlos,517920,Sinop
 Ylber Ramadani,518001,KF Prishtina
 Mateusinho,518043,Maricá
 Raphael,518083,Luverdense
@@ -5873,6 +5915,7 @@ Youssef Maleh,525288,Ravenna
 Youssef En-Nesyri,525371,Málaga
 Luca Zanimacchia,525480,Juventus
 Lucas Robertone,525585,Vélez Sarsfield
+Lautaro Belleggia,525617,Olimpo
 Eduard Atuesta,525737,Independiente Medellín
 Alejandro Catena,525739,CD Móstoles URJC
 Martin Hongla,525811,Granada
@@ -5886,6 +5929,7 @@ Steven Alzate,526274,Leyton Orient
 Rodrigo Fernández,526371,Danubio
 Paul Akouokou,526450,Ekenas IF
 Gustavo França,526607,Floriana
+Talles Lima,526682,Votuporanguense
 Marc Cardona,526748,Atletico Sanluqueño
 Léo Oliveira,527003,Portuguesa-RJ
 Robinho,527054,Atibaia
@@ -6082,6 +6126,7 @@ Romisson,543525,Coruripe
 Daciel,543526,Coruripe
 Alan James,543527,Dimensão Capela
 Álex Centelles,543589,Valencia
+Kiko,543662,ASSU
 Fessin,543667,ABC
 Curtis Jones,543689,Liverpool
 Mohamed Kanno,543793,Al-Ettifaq
@@ -6100,6 +6145,8 @@ Sami Al-Najei,544173,Al Nassr
 Sultan Al-Ghanam,544211,Al-Faisaly SC
 Abdulellah Al-Malki,544254,Al-Wehda
 Josip Sutalo,544315,Dinamo Zagreb
+Gabriel Ferreira,544322,Valeriodoce
+Robertinho,544323,Serrano-PB
 Jerdy Schouten,544527,ADO Den Haag
 Mads Hermansen,544538,Brondby
 Morten Frendrup,544543,Brondby
@@ -6137,7 +6184,9 @@ Nicolò Zaniolo,547001,Virtus Entella
 Ronei,547032,Chapecoense
 Régis Tosatti,547036,Chapecoense
 Tharlis,547037,Chapecoense
+Edson Miranda,547090,Desportivo Brasil
 Iago Borduchi,547114,Internacional
+Maranhão,547190,Sampaio Correa
 Gustavo Klismahn,547211,FC Alverca
 Rodrigo Muniz,547219,Flamengo
 Fabrício,547242,Red Bull Bragantino
@@ -6261,6 +6310,7 @@ Júlio Vaz,548527,Botafogo-SP
 Jordan,548566,Ferroviária
 Alison,548570,Noroeste
 Pedro do Rio,548576,Ferroviária
+Avelino,548598,Volta Redonda
 Juan Pablo Vargas,548603,Alajuelense
 Koffi Kouao,548604,FC Vizela
 Francis Cann,548605,FC Vizela
@@ -6274,8 +6324,10 @@ Matías Viña,548763,Nacional
 Félix Torres,548769,Barcelona-ECU
 Baralhas,548789,Ituano
 Léo Ortiz,548794,Internacional
+Weverton,548799,Jacuipense
 Denis Germano,548806,Primavera
 Jonas Toró,548810,São Paulo
+Lucas Rodrigues,548821,Capivariano
 Rayne,548823,Red Bull Brasil
 Pedro Naressi,548825,Red Bull Brasil
 Rodrigo,548827,Red Bull Brasil
@@ -6343,6 +6395,7 @@ Andy Irving,550386,Hearts
 Tomás Belmonte,550533,Lanús
 Martin Aguirregabiria,550603,Alavés
 Thomás Kayck,550708,Central
+Everton,550735,Campo Mourão
 Jackson,550973,Sete de Setembro-AL
 Julian Justvan,551011,1860 München
 Neto Borges,551087,Boca Junior-SE
@@ -6365,6 +6418,7 @@ Felipinho,552057,Águia de Marabá
 Michael,552166,Monte Cristo
 Ao Tanaka,552182,Kawasaki Frontale
 Wesley,552238,Linhares
+Dener,552246,PSTC
 Taishi Matsumoto,552290,Sanfrecce Hiroshima
 Kyogo Furuhashi,552405,Gifu
 Halls,552474,Vasco
@@ -6454,6 +6508,8 @@ Fausto Vera,555999,Argentinos Juniors
 Facundo Colidio,556001,Sint-Truiden
 Benjamín Rollheiser,556004,River Plate
 Jackson Porozo,556034,Manta FC
+Joseph Espinoza,556038,LDU
+Alan Rodríguez,556052,Cerro Porteño
 Franco Israel,556067,Juventus
 Santiago Rodríguez,556080,Nacional
 Facundo Torres,556087,Peñarol
@@ -6599,6 +6655,7 @@ Ruan,565067,Grêmio
 Pape Gueye,565083,Le Havre
 Kevyn,565231,Náutico
 Luca Gemello,565290,Torino
+Mendes,565682,Barcelona Esportivo
 Sidnei Tavares,565718,Leicester City
 Tauã Antunes,565818,CA Lemense
 Brandon Williams,565890,Manchester United
@@ -6704,6 +6761,7 @@ Emanuele Valeri,583965,Urbetevere
 Derrick Köhn,584060,Bayern München
 Lucas Pires,584087,Santos
 Santiago Giménez,584094,Cruz Azul
+Igor Morais,584129,São Paulo
 Lyncon Filipe,584130,Ponte Preta
 Jaime Alvarado,584208,Valladolid
 Alejandro Marqués,584222,Barcelona
@@ -6725,6 +6783,8 @@ Nico Mantl,584888,SpVgg Unterhaching
 Johan Vásquez,584956,Cimarrones
 Facundo Zabala,584977,Alajuelense
 Ezequiel,585241,Botafogo
+Digão,585337,Americano
+Jaime Giraldo,585340,Independiente Medellín
 Carlos Martínez,585356,San Carlos
 Siriki Dembélé,585496,Grimsby Town
 Goduine Koyalipou,585545,Chamois Niortais
@@ -6772,6 +6832,7 @@ Michel Araújo,589241,Racing-URU
 Sam Beukema,589456,Go Ahead Eagles
 Maxwell Silva,589551,Formosa
 Danilo Gomes,589658,São Paulo
+Nicolás Linares,590098,Banfield
 Jairinho,590192,Campo Grande-RJ
 Flávio Nazinho,590425,Sporting
 Nuno Matos,590454,Sporting Braga
@@ -6876,6 +6937,7 @@ Carlos Palacios,598109,Unión Española
 Terem Moffi,598366,Zalgiris Kaunas
 Felipe Cruz,598452,Oeste
 Thijs Dallinga,598762,FC Emmen
+Gustavo Nicola,598828,Independente de Limeira
 Kevin Chamorro,598942,Carmelita
 Daniel Chacón,598951,Cartaginés
 André Silva,599033,Rio Ave
@@ -6965,6 +7027,7 @@ Christian,610150,Athletico Paranaense
 Dylan Borrero,610177,Santa Fé
 Santiago Ocampos,610219,Beitar Jerusalem
 Matías Galarza,610225,Vasco
+Diego Torres,610228,Olimpia
 Antonín Kinsky,610262,Dukla Praha
 Rafael Teixeira,610491,Farense
 Pedro,610513,Portuguesa-RJ
@@ -7023,6 +7086,7 @@ Abdou Harroui,617099,Sparta Rotterdam
 Flávio Silva,617102,América Mineiro
 Michel,617103,Paraná
 Mahdi Camara,617239,Saint-Étienne
+João Marcos,617284,Olimpia-SP
 José Gragera,617381,Sporting Gijón
 Abdulelah Al-Amri,617700,Al Nassr
 Has AlTambakti,617738,Al-Shabab
@@ -7034,6 +7098,7 @@ Mads Bidstrup,619186,Brentford
 Rone,619238,Santa Helena-GO
 Ulisses Wilson,619278,Atlético Diadema
 Cristiano,619298,Ceará
+Rafael Milhorim,619305,Ararat Yerevan
 Matheus Rocha,619308,Vitória
 Matheus Neris,619310,Londrina
 José Aldo,619311,Internacional
@@ -7044,6 +7109,7 @@ Lee Kang-in,619504,Valencia
 Alberto Soro,619508,Real Zaragoza
 Foguinho,619510,Chapecoense
 Rildo,619557,Grêmio
+Pedro Caracoci,619564,ENAD
 Luiz Henrique,619569,Flamengo
 Yuri César,619570,Flamengo
 Wendel Silva,619610,Flamengo
@@ -7051,7 +7117,7 @@ Antony,619622,São Paulo
 David,619658,Vitória
 Denner,619662,Juventude
 Andrey,619663,Paraná
-William,619679,Atlético Araçatuba
+William,619679,Andradina EC
 Gabriel Martinelli,619681,Ituano
 Rafael Bilu,619684,Corinthians
 Ronald,619687,Maringá
@@ -7085,6 +7151,7 @@ Alysson Dutra,620384,Rio Claro
 Pablo,620388,Atlético Goianiense
 Adriano,620392,Atlético Mineiro
 Pedro Marinho,620395,Goiás
+Léo Rosa,620397,Atlético Goianiense
 Kelvyn,620401,Ceará
 Jonata Machado,620407,Botafogo-SP
 Richard,620408,Internacional
@@ -7142,6 +7209,7 @@ Caíque Silva,621689,Vitória
 Lucas Ribeiro,621776,Vitória
 Guilherme Ferreira,621786,Guarani-MG
 Vanderley,621809,Goiás
+Vitor Pernambuco,621935,Portuguesa
 Matheus Refundini,621936,Portuguesa
 Kevin Álvarez,621966,Pachuca
 Sabino,622012,América Mineiro
@@ -7176,7 +7244,9 @@ Matchoi Djaló,624952,Paços de Ferreira
 Gabriel Honório,624966,Rio Branco-PR
 Gui Mendes,624974,Ituano
 Gabriel Neves,625078,Nacional
+Felipe Aguirre,625113,Itagüí Leones
 Sebastián Gómez,625122,Atlético Nacional
+Kevin Viveros,625126,América de Cali
 Théo Fonseca,625559,FC Felgueiras 1932
 Luan Marchiori,625599,PSTC
 Kevem,625797,Remo
@@ -7213,6 +7283,7 @@ Yasser Larouci,628342,Liverpool
 Matej Kovár,628343,Manchester United
 Jeong Woo-yeong,628348,Bayern München
 Leonan Santos,628510,Desportivo Brasil
+Eliton Júnior,629069,Lokomotiv Plovdiv
 Gianluca Busio,629216,Sporting Kansas City
 Danny Musovski,629220,Reno 1868
 Arthur,629498,América Mineiro
@@ -7231,6 +7302,7 @@ Gustavo Marques,632463,América Mineiro
 Pape Sarr,632539,Génération Foot
 Luiz Felipe,632611,Zorya
 Kevin Sessa,632631,Heidenheim
+Rafa Barcelos,632723,América Mineiro
 Pedro Brazão,632951,Nice
 Dan Chesters,633174,West Ham
 Jakub Stolarczyk,633175,Leicester City
@@ -7476,6 +7548,7 @@ Vladan Kovačević,650460,FK Sarajevo
 Vinícius Paiva,650602,Vasco
 Yohann Magnin,650689,Clermont
 Rafael Luiz,650732,Sport
+Kevin Velasco,650941,Deportivo Cúcuta
 Lelê,651035,Itaboraí Profute
 Felipe Felício,651120,Atlético Mineiro
 Jean,651122,CSA
@@ -7601,6 +7674,7 @@ Felipe Vasconcelos,661561,Três Passos
 Caio Mota,661691,Santos
 Andrej Ilic,662011,FK Napredak
 Pedro De La Vega,662126,Lanús
+Hayen Palacios,662159,Atlético Nacional
 Silas Katompa,662232,Olympique Alès
 Nediljko Labrovic,662347,NK Junak Sinj
 Kevin Serna,662600,Madero FC
@@ -7712,6 +7786,7 @@ Mathias Olesen,672561,FC Köln
 Óscar Gil,672624,Elche
 Brandon Soppy,672752,Rennes
 Achraf Dari,673482,WAC
+Luan Martins,673791,Anapolina
 Olivier Deman,673976,Cercle Brugge
 Lucien Agoumé,674158,Sochaux
 Mounaim El Idrissy,674167,Ajaccio
@@ -7784,6 +7859,7 @@ Gustavo Maia,682141,Barcelona
 Vitinho,682142,São Paulo
 Ryan,682144,Bahia
 Ricardinho Viana,682146,Grêmio
+Guilherme Cachoeira,682147,Volta Redonda
 John Kennedy,682236,Fluminense
 Brennan Johnson,682359,Nottingham Forest
 Emil Holm,682376,IFK Goteborg
@@ -7834,6 +7910,7 @@ Pedrinho,686492,Vitória
 Julian Malatini,687013,Talleres
 Otávio,687156,Flamengo
 Filip Stevanovic,687351,Partizan
+Joaquín Novillo,687355,Belgrano
 Henrique,687385,Três Passos
 Peque,687403,UE Cornellà
 Romildo,687489,Joseense
@@ -7845,6 +7922,7 @@ Lucas Ferron,687774,Itumbiara
 Allanzinho,687783,Santos
 Renanzinho,687789,Guarani
 Wallison,687808,Red Bull Brasil
+Victor Hugo,687840,Red Bull Brasil
 Guilherme Madruga,688044,Desportivo Brasil
 Micael,688110,Independente de Limeira
 Keffel,688479,São Caetano
@@ -7865,6 +7943,7 @@ Ronaldo,689698,São Caetano
 Rodrigo Zalazar,689707,Korona Kielce
 Samuel Andrade,689779,XV de Piracicaba
 João Veras,689782,XV de Piracicaba
+Caio Roque,690040,Lommel SK
 Felipinho,690043,Avaí
 Leandro Santos,690177,Benfica
 Ênio,690226,Botafogo
@@ -7926,7 +8005,9 @@ Vinícius Faria,691538,Flamengo-SP
 João Lucas,691551,Iporá
 Gabriel Barros,691558,Ituano
 Léo Pereira,691563,Ituano
+Vitor Barreto,691669,Capivariano
 Léo Rafael,691720,Grêmio Osasco
+Kaíque Maciel,691725,Grêmio Osasco
 Guilherme Bala,691887,Madureira
 Juninho,691910,Ponte Preta
 Gonzalo,691912,São José-RS
@@ -7935,6 +8016,7 @@ Vinícius Zanocelo,691917,Ponte Preta
 Igor Dutra,691982,Avaí
 Marquinho,691985,Chapecoense
 Filipinho,692176,São Raimundo-RR
+Juninho Monteiro,692223,Madureira
 Dentinho,692231,Botafogo-SP
 Caio,692232,Botafogo-SP
 Gregory,692234,Bahia
@@ -7946,6 +8028,7 @@ João Marcelo,692400,Boavista-RJ
 Igor Ribeiro,692421,Real Noroeste
 Paulo Victor,692471,São Carlos
 Paulo Victor,692750,Joinville
+Alason Carioca,692769,Trindade
 Keane Lewis-Potter,692887,Hull City
 Cristian Renato,692929,Juventus-SP
 Albert Gronbaek,692992,AGF Aarhus
@@ -8025,6 +8108,7 @@ Koba Koindredi,697334,Lens
 João Paulo,697363,Riacho City
 Leonardo Oliveira,697537,Famalicão
 Enzo Fernández,697623,River Plate
+Carlos Terán,697675,Envigado
 Alexsandro Ribeiro,697688,SC Praiense
 Wilfried Singo,698427,Torino
 Carlos García-Die,698618,UE Cornellà
@@ -8102,6 +8186,7 @@ João Marcos,706793,Goiás
 Jamie Leweling,706972,Greuther Fürth
 Iron Gomis,707032,Amiens
 Jarrad Branthwaite,707056,Carlisle United
+Alejandro Martínez,707244,Atlas-ARG
 Victor Boniface,707343,Bodo/Glimt
 Magnus Knudsen,707347,Lillestrom
 Léo Alaba,707510,Olimpia-BA
@@ -8204,6 +8289,7 @@ Ighor Gabryel,715048,América Mineiro
 Beni Mukendi,715109,Trofense
 Yassine Kechta,715139,Le Havre
 Filipe Chrysman,715239,Guarani
+Kauan Lindes,715309,Villa Nova-MG
 Nicolò Cambiaghi,715339,Reggiana
 Cláudio Cebolinha,715435,Sampaio Correa
 Marlon Gomes,715443,Vasco
@@ -8215,6 +8301,7 @@ Vitinho Souza,715919,Inter de Limeira
 Andrian Kraev,716022,Hebar
 Kaiki,716081,Cruzeiro
 Stênio,716082,Cruzeiro
+Cássio Meneses,716096,América Mineiro
 Riquelmo,716101,Cruzeiro
 Thalisson,716116,Coritiba
 Bernardo,716119,Coritiba
@@ -8292,6 +8379,7 @@ Daniel Júnior,717241,Cruzeiro
 Stevanato,717245,Ituano
 Kaiky Naves,717247,Palmeiras
 Estevão,717249,Internacional
+Enzo Bizzotto,717250,Aparecidense
 Vanderlan,717251,Palmeiras
 Ruan Ribeiro,717254,FK Valmiera
 Weverton,717268,Cruzeiro
@@ -8324,10 +8412,12 @@ Alemão,718816,Portimonense
 Thiago Lopes,718883,Ponte Preta
 Chiheb Labidi,718911,Club Africain
 Erick Marcus,718991,Vasco
+Lucas Eduardo,718996,Vasco
 Everton,719073,Grêmio Novorizontino
 Renan Silva,719084,Atlético Goianiense
 Alistair Johnston,719150,Vaughan Azzurri
 Cipriano,719285,Fluminense
+Kayky Almeida,719393,Fluminense
 Renan Araújo,719722,Noroeste
 Cristian,719812,Brasil de Pelotas
 Nicola Zalewski,719952,Roma
@@ -8363,6 +8453,7 @@ Miqueias,721932,Ferroviária
 Werik Popó,721941,Oeste
 Breno,721946,Vila Nova
 Gabriel Pereira,721978,Corinthians
+Carlos Eduardo,722139,Capivariano
 Gustavo Nescau,722380,Marília
 Ruan,722450,São Bernardo
 Marcio Silva,722651,Coritiba
@@ -8404,13 +8495,16 @@ Nicolas,725817,Internacional
 Zé Vitor,725822,América Mineiro
 Vanderson,725828,Grêmio
 Natã,725829,Grêmio
+Willian Bahia,725840,Monsoon
 Samuel,725861,Vitória
 Zé Vitor,725984,Belenenses
 Diego Rodrigues,726083,Sporting Braga
 Índio,726089,Oeste
 Christian Eto'o,726104,Inter de Bebedouro
 Giovanni Reyna,726304,Borussia Dortmund
+Iverton,726400,Tiradentes-CE
 Leonardo Cerri,726434,Juventus
+Lucas Barreto,726465,Atlético Goianiense
 Yusuke Matsuo,726588,Yokohama FC
 Lenny Lobato,726590,Vélez Sarsfield
 Vitor Leque,726673,Atlético Goianiense
@@ -8419,6 +8513,7 @@ Walid Cheddira,726902,Loreto
 Maurits Kjaergaard,726945,Red Bull Salzburg
 Niccolò Pierozzi,726961,Fiorentina
 Tommaso Cassandro,726965,Novara
+Alan Stence,726975,Goiás
 Lorenzo Lucca,727054,Palermo
 Giuseppe Ciocci,727086,Cagliari
 Moisés Caicedo,727155,Independiente del Valle
@@ -8428,6 +8523,7 @@ John Tolkin,727298,New York Red Bulls
 Tanner Tessmann,727557,FC Dallas
 Guillaume Dietsch,727712,Metz
 Douglas Mendes,728007,Ponte Preta
+Lucca Carvalho,728216,Paysandu
 Lucas Beraldo,728321,São Paulo
 Amad Diallo,728464,Atalanta
 Titi,728498,Guarani
@@ -8465,16 +8561,19 @@ Nikola Soldo,735631,Inter Zapresic
 Iqraam Rayners,735669,Santos Cape Town
 Thauan Lara,735795,Internacional
 Ricardo Cerqueira,735849,Capivariano
+Matheus Guilherme,735870,Barretos
 Guilherme Christino,736135,Operário Ferroviário
 Eliedson,736212,Criciúma
 Vitor Gonçalves,736220,Juventude
 Owen Beck,736238,Liverpool
 Rubin Colwill,736250,Cardiff City
 Mikael Raitz,736458,Paraná
+Victor Hugo,736612,Desportivo Brasil
 Tommaso Barbieri,736679,Novara
 Giacomo Quagliata,736744,Pro Vercelli
 Victor Guzmán,736919,Tijuana
 Marcelinho,736946,Palmeiras
+Gastón Benavídez,737107,Tiro Federal Morteros
 Pedrinho,737137,Flamengo
 Werton,737138,Flamengo
 Pablo Ruan,737139,Londrina
@@ -8504,6 +8603,7 @@ Bart Verbruggen,740106,Anderlecht
 Michel,740128,Palmeiras
 Davis Silva,740363,São José-RS
 Enzo Barrenechea,740418,Juventus
+Thiago Medeiros,740468,Atlético Goianiense
 Brayan,740922,Guarani-SC
 Jan Thielmann,741137,FC Köln
 Javier Rueda,741141,San Sebastián Reyes
@@ -8511,6 +8611,7 @@ Matheus Régis,741161,Desportiva Guarabira
 Stefano Turati,741177,Sassuolo
 Kaio César,741360,Novo Hamburgo
 Caio Rafael,741363,Ceará
+Pedro Romano,741396,Betim
 Max,741397,Flamengo
 José Silva,741414,Sporting
 Yahia Allah,741440,OC Safi
@@ -8556,12 +8657,14 @@ Valentín Depietri,744204,Santamarina
 Richard Rios,744267,Flamengo
 Sinaly Diomandé,744310,Lyon
 Fabian Rüdlin,744411,Freiburg
+Léo Ataíde,744821,Athletico Paranaense
 Cenk Ozkacar,745053,Altay
 Emerson Rodríguez,745148,Millonarios
 Naouirou Ahamada,745321,Stuttgart
 Waniss Taïbi,745332,Angers
 Gabriel Feliciano,745796,Figueirense
 Telasco Segovia,746283,Deportivo Lara
+Valdir Júnior,746301,Cruzeiro
 Marco Ribeiro,746520,Boavista
 Tomé Sousa,746525,Boavista
 Emerson Júnior,746995,Corisabbá
@@ -8660,6 +8763,7 @@ Kouame Autonne,757479,Khorfakkan
 Regis Ndo,757718,Real Betis
 Cristo Romero,757725,Málaga
 Andrea Carboni,757726,Cagliari
+MV,758308,Paraíba do Sul
 Marco Grüll,758831,TSV St. Johann
 Pablo Baianinho,758899,Jacuipense
 Oussama El Azzouzi,758992,DOVO Veenendaal
@@ -8679,6 +8783,7 @@ Issa Soumaré,760861,Génération Foot
 Yan Phillipe,761025,Atlético Mineiro
 Neto,761391,Goiás
 Adsson,761419,CRB
+Léo Gaúcho,761833,Santa Cruz
 Cameron Peupion,761942,Brighton & Hove Albion
 Cesare Casadei,762066,Chelsea
 Dany Jean,762344,Aigle Noir AC
@@ -8688,6 +8793,7 @@ Monsuru Opeyemi,762404,FC Vizela
 Nathan Lobo,762439,Auckland City
 Ben Old,762446,Wellington Phoenix
 Jhosefer,762502,Cruzeiro
+Alencar,762973,Retrô
 Neneca,763167,Londrina
 Boubacar Traoré,763206,Metz
 Kacper Urbanski,763448,Lechia Gdansk
@@ -8699,6 +8805,7 @@ Miki Bosch,765586,Valencia
 João Victor Maranhão,765811,Horizonte-CE
 Yusuf Demir,766143,Rapid Wien
 Loris Mouyokolo,766353,Lorient
+Marcelo Henrique,766820,Cuiabá
 Fidel Ambríz,766827,Club León
 Julián Palacios,766926,San Lorenzo
 Pará,767022,Juventude
@@ -8771,6 +8878,7 @@ Alemão,776654,Operário Ferroviário
 Igor Torres,776840,Fortaleza
 Lucas Cardoso,776855,União Rondonópolis
 Fábio,777062,Anapolina
+Gabriel Souza,777331,Real Noroeste
 Marwan Attia,777727,Ittihad Alexandria
 Denílson,778018,Botafogo-SP
 Damián Bobadilla,778057,Cerro Porteño
@@ -8814,6 +8922,7 @@ Janis Antiste,783282,Toulouse
 Everson,783357,Coruripe
 Álvaro,783388,Guarani
 Guilherme Campana,783536,Amparo
+Gui Lobo,783617,Nacional-SP
 Mohamed Touré,783654,Adelaide United
 Charlie Cresswell,783760,Leeds United
 Moises Mosquera,783838,Marítimo
@@ -8857,6 +8966,7 @@ Jaidon Anthony,788914,Bournemouth
 Daniel Svensson,788976,Nordsjaelland
 Moteb Al-Harbi,789250,Al-Shabab
 Jhan Torres,790036,Barranquilla FC
+Samuel,790084,América Mineiro
 Allan Elias,790107,Palmeiras
 Rômulo,790109,Atlético Mineiro
 Sávio,790111,Atlético Mineiro
@@ -8867,6 +8977,7 @@ Isaac,790121,Atlético Mineiro
 Jailson,790124,CRB
 Léo Mana,790129,Corinthians
 Zinho,790175,Grêmio
+João Ramos,790194,Grêmio
 Lucas Milla,790195,Grêmio
 Daniel Henrique,790196,Ceará
 Arthur Viana,790198,Cruzeiro
@@ -8889,6 +9000,7 @@ Gustavinho,790548,Red Bull Bragantino
 Weslley Patati,790584,Santos
 Hyan,790623,Santos
 Newton Williams,791712,Costa del Este
+Léo Reis,794440,Coimbra-MG
 Juan Pablo,795233,Goiás
 Mohamed Amoura,796253,ES Sétif
 Ilias Akhomach,798755,Barcelona
@@ -9006,6 +9118,8 @@ Rico Lewis,825291,Manchester City
 Álvaro Fernández,825305,Manchester United
 Luke Harris,825330,Fulham
 Jordy Makengo,825345,Auxerre
+Gabryel Martins,825449,Fluminense
+David Lopes,825451,Ipatinga
 Bradley Locko,825491,Stade de Reims
 N´Dri Koffi,825496,Stade de Reims
 Fahem Benaissa,825512,Stade de Reims
@@ -9104,6 +9218,7 @@ Vando Félix,833990,Leixões
 Emmanuel Ekong,833999,Empoli
 Tommaso Baldanzi,834000,Empoli
 Yan Souto,834019,União-MS
+Gabriel Domingos,834290,Vila Nova
 Martin Turk,834342,Parma
 Marvin Senaya,834471,Strasbourg
 Tim Breithaupt,834770,Karlsruher SC
@@ -9138,6 +9253,7 @@ Yannik Engelhardt,837210,Werder Bremen
 Andrey,837490,Avaí
 Nicolai Remberg,837496,Preussen Munster
 Lucas Ramires,837500,Hercílio Luz
+PH Gama,837682,Pinheirense
 Michael Kayode,837867,Gozzano
 Nacho Miramón,837917,Gimnasia
 Gustavo Talles,838374,Portuguesa
@@ -9163,6 +9279,7 @@ Dango Ouattara,841114,Majestic
 Matej Maglica,841138,TSG Backnang
 Marco Pasalic,841139,Stuttgart
 Enzo,841227,XV de Piracicaba
+Kauã Moroso,841278,Criciúma
 Pedro Bondo,841345,Petro de Luanda
 Rodrigo,841521,CRB
 Edoardo Bove,841633,Roma
@@ -9222,6 +9339,7 @@ Ian Fray,849754,Inter Miami
 Julien Lomboto,850439,Strasbourg
 Nordine Kandil,850443,Strasbourg
 Oussama Targhalline,850465,Marseille
+Freitas,850558,Tianguá
 Alessandro Bianco,850912,Fiorentina
 Dylan Nandín,851049,CA Cerro
 Petar Ratkov,851169,TSC Backa Topola
@@ -9253,6 +9371,7 @@ Dominic Ballard,854417,Southampton
 Kami Doyle,854418,Southampton
 Tyler Dibling,854420,Southampton
 David Ozoh,854423,Crystal Palace
+Eduardo Vinícius,854552,Palmeira de Goianinha
 Tomás Mendes,854575,Alavés
 Mateo Pellegrino,854595,Vélez Sarsfield
 Alex Scott,854648,Bristol City
@@ -9260,6 +9379,7 @@ Taichi Fukui,855057,Sagan Tosu
 Taïryk Arconte,855138,Ajaccio
 Giovanni Fabbian,855325,Reggina
 Matìas Soulé,855335,Juventus
+André,855527,Sinop
 Jhon Jhon,855537,Primavera
 Saïd Hamulic,855597,FK Dainava
 Tiago,855697,Remo
@@ -9269,6 +9389,7 @@ Nico O’Reilly,856030,Manchester City
 Jack Hinshelwood,856034,Brighton & Hove Albion
 Will Alves,856037,Leicester City
 Marin Ljubicic,856066,Hajduk Split
+Rigley,856309,Capivariano
 Florian Danho,856459,Thonon Evian GG FC
 Tadeo Allende,856988,Instituto
 Ruan Carlos,857315,Fluminense-PI
@@ -9295,6 +9416,7 @@ Sydie Peck,862576,Sheffield United
 Alejo Veliz,862670,Rosario Central
 Jefferson,862689,Vila Nova
 Roberto Fernández,863403,Málaga
+Lucas Chávez,863420,Bolívar
 Matteo Prati,863836,Ravenna
 Ethan Nwaneri,863941,Arsenal
 Myles Lewis-Skelly,863943,Arsenal
@@ -9317,6 +9439,7 @@ GB,865208,Vasco
 Leandrinho,865213,Vasco
 Tiago,865301,Bahia
 Chiqueti,865414,Athletico Paranaense
+Léo Derik,865422,Athletico Paranaense
 Daniel,865574,Atlético Goianiense
 Vinícius Lago,865577,Atlético Goianiense
 Jean Carlos,865581,Atlético Goianiense
@@ -9417,6 +9540,7 @@ Félix Lemaréchal,883625,Monaco
 Javi Guerra,883996,Valencia
 Ruan Carlos,884221,Botafogo-SP
 Vitor Hugo,884301,Ponte Preta
+Caetano,884308,SC Salgueiros
 Nathan Camargo,884515,Red Bull Bragantino
 José Carlos,884521,Ituano
 Enzo Rocha,884528,Grêmio Novorizontino
@@ -9429,6 +9553,7 @@ Giorgi Kvernadze,884893,FC Iberia 1999
 Elias Saad,885011,Buxtehuder SV
 Cauari,885113,Votuporanguense
 David Braga,885252,Desportivo Brasil
+Brayann,885276,FCA 04 Darmstadt
 Antoine Hainaut,885700,US Boulogne
 Sam Curtis,885719,St. Patrick
 Diego Coppola,886184,Hellas Verona
@@ -9445,7 +9570,9 @@ Cole Campbell,886790,FH Hafnarfjordur
 Dantas,887064,Grêmio Novorizontino
 Henrique Melo,887477,Coritiba
 Ibrahim Cissoko,887523,NEC
+Caick,887554,Inter de Minas
 Tyler Fredricson,888022,Manchester United
+Ryan Santos,888324,Operário Ferroviário
 Denilson,888891,Guarany Bagé
 David Jurásek,888928,Zbrojovka Brno
 Issa Doumbia,889152,AlbinoLeffe
@@ -9466,12 +9593,15 @@ Richard,890243,Ituano
 Moussa Soumano,890263,Ajaccio
 Gustavo Prado,890344,Internacional
 Benedetti,890351,Palmeiras
+Diego Borges,890359,Amazonas FC
 Ricardo Mathias,890363,Internacional
+Tavinho,890372,Grêmio Novorizontino
 Faride Alidou,890482,Hamburger SV
 Rian,890674,Vila Nova
 Buiú,890732,Noroeste
 Paulo Vitor,890768,Boston City Brasil
 Adriano Bispo,890780,Grêmio Novorizontino
+Raí Natalino,890783,São Bento
 Alán Bautista,890914,Pachuca
 Paul Wanner,891069,Bayern München
 Frans Krätzig,891098,Bayern München
@@ -9486,19 +9616,24 @@ Denis,891334,Portuguesa
 Michael Golding,891445,Chelsea
 Friday Etim,891458,FC Vizela
 Oliver Scarles,891468,West Ham
+Diogo Riquelme,891664,Athletico Paranaense
 Marlinho,891665,Ituano
 Robinho,891783,Brusque
 Italo,892028,Brasil de Farroupilha
 Chico Gonçalves,892300,Nacional-POR
 Higor,892455,Vila Nova
+Baldória,892569,Ska Brasil
 Thauan,892589,América Mineiro
 Lucas Ferreira,892613,São Paulo
 Rafael Freitas,893394,Guarani
 Wallace Yan,893570,Flamengo
+Brenno Pereira,893833,Operário Ferroviário
+Jhonnatan Silva,893942,América Mineiro
 Miro,894143,ASA-ANG
 Léo Porfírio,894532,Guarani
 Pelayo Fernández,895080,Barcelona
 Amine Messoussa,895362,Lille
+Matheus Costa,895386,América T.O.
 Royce Openda,895576,Bouenguidi
 Manuel Bueno,896053,Sevilla
 Diego Hormigo,896054,Sevilla
@@ -9569,6 +9704,7 @@ Kamory Doumbia,899886,Stade de Reims
 Thérence Koudou,899890,Stade de Reims
 Sergi Altimira,900472,Sabadell
 Cauê,900558,Juventude
+Thayllon,900725,Avaí
 Stiven Shpendi,900816,Cesena
 Giacomo Corona,900820,Palermo
 Matteo Vinlöf,901022,Bayern München
@@ -9645,6 +9781,7 @@ Malick Fofana,914070,Gent
 Stanis Idumbo,914072,Ajax
 Arthur Vermeeren,914083,Royal Antwerp
 Vasilije Adzic,914108,FK Buducnost
+Hiago Alves,914167,Novo Hamburgo
 Stefan Dzodic,914213,Montpellier
 Kosta Nedeljkovic,914220,Crvena Zvezda
 Mohamed Wael,914339,Espérance de Tunis
@@ -9672,6 +9809,7 @@ Mark O´Mahony,915717,Brighton & Hove Albion
 Oscar Hojlund,915782,FC Kobenhavn
 Mario Martín,915934,Real Madrid
 Álvaro Rodríguez,915935,Real Madrid
+Kauã Ubá,916009,Volta Redonda
 Felix Afena-Gyan,916184,Roma
 Damián Pizarro,918932,Colo-Colo
 Gustavo Sarjani,919009,Vila Nova
@@ -9702,6 +9840,7 @@ Seydou Fini,933037,Genoa
 Alessandro Circati,933097,Parma
 Leandro Antonetti,933199,Lugo
 Álvaro Aguirre,933369,Rayo Vallecano
+João Henrique,934347,Volta Redonda
 Luca Jaquez,936017,Luzern
 Peu,936158,Londrina
 Zack Nelson,936829,Luton Town
@@ -9716,6 +9855,7 @@ Souza,941506,Santos
 Kauan Cristtyan,941510,EC São Bernardo
 Vinicius Lira,941516,Santos
 Tomás Palacios,941715,Talleres
+Guilherme Aquino,941778,Coritiba
 Pedro Morisco,941804,Coritiba
 Tom Pouilly,942163,Lens
 Rémy Lascary Labeau,942167,Lens
@@ -9728,8 +9868,10 @@ Dudu Mosconi,942600,Operário Ferroviário
 Lian,942667,Grêmio
 Pio,942673,Operário Ferroviário
 Vinícius,943070,Ituano
+Robinho,943111,Volta Redonda
 Weliton,943207,Juventude
 Ruan,943211,Juventude
+Lucas Soares,943226,Francana
 Lohann Doucet,943307,Nantes
 Mateo Joseph,943443,Leeds United
 Willian,943753,Botafogo-SP
@@ -9759,9 +9901,11 @@ Diego Gómez,952665,Libertad
 Massamba Ndiaye,952702,CNEPS Excellence
 Emiliano Rodríguez,952718,Boston River
 Alan Matturro,952810,Defensor Sporting
+Francisco Barrios,952816,Defensor Sporting
 Facundo Bernal,952817,Defensor Sporting
 Kaito Yasui,953227,Urawa Reds
 Ousmane Diomande,953339,FC OSA
+Nicolás Ferreira,953347,Montevideo Wanderers
 Brian Mansilla,953995,Peñarol
 Hennes Behrens,954087,TSG Hoffenheim
 Mert Komur,954091,FC Augsburg
@@ -9870,6 +10014,7 @@ Jérémy Jacquet,965949,Rennes
 Bruno Ogbus,966097,Freiburg
 Clinton,966306,Londrina
 Lorran,966406,Flamengo
+Gabriel Mineiro,966416,Azuriz
 Fabiano,966451,Botafogo
 Garang Kuol,967084,Central Coast
 Adam Daghim,967290,AGF Aarhus
@@ -9882,10 +10027,12 @@ Léo Gama,969268,Vila Nova
 Santiago Mouriño,969329,Racing-URU
 Dieu Michel,969336,Vitória de Guimarães
 João Gabriel,969498,Ponte Preta
+Luan Andrey,969562,Vila Nova
 Guilherme,969574,Flamengo
 Yan,970111,Guarani
 Davi Gomes,970327,Água Santa
 Pedro Balotelli,970334,Grêmio Novorizontino
+Carlito Thiago,970352,Athletic-MG
 Luighi,970673,Palmeiras
 Leon Opitz,970992,Werder Bremen
 Valentin Sulzbacher,971401,Red Bull Salzburg
@@ -9905,9 +10052,15 @@ Kauã Moreira,973208,Ponte Preta
 Lucas Dias,973243,Ituano
 Vitor Reis,973416,Palmeiras
 Abakar Sylla,973631,SO Armée
+Alex Amorim,973751,Fortaleza
+Breno,974346,Vila Nova
 Halerrandrio,974981,Goiás
 Kauan,974986,Goiás
 Kenji,975007,Cruzeiro
+Anthony,975015,Goiás
+Fabricio,975057,Criciúma
+Pedro Gonçalves,975319,Paysandu
+Kadu Santos,975321,Remo
 Isac,975401,Red Bull Bragantino
 Pedro Lima,975415,Sport
 Estevão,975614,Palmeiras
@@ -9930,11 +10083,14 @@ Umit Akdag,980683,Alanyaspor
 Primo,980702,Levante
 Emmanuel Koum,981211,Auxerre
 Karem Zoabi,981255,Hapoel Katamon
+Juninho,981335,FC Cascavel
 Jan-Carlo Simic,981477,Milan
 Jovan Milosevic,981504,FK Vojvodina
 Dani Rodríguez,981530,Barcelona
 Igor Miladinovic,981599,Cukaricki
+Gustavão,981890,Athletic-MG
 Andrey,981891,ABC
+Guilherme Nogueira,981895,América Mineiro
 Mateusz Kowalski,981905,Jagiellonia Bialystok
 Luca Koleosho,982693,Espanyol
 Gift Orban,982759,Stabaek
@@ -9945,6 +10101,7 @@ Josué,985058,Grêmio
 Maykon Jesus,985064,Noroeste
 Anrie Chase,985580,Stuttgart
 Ryan Francisco,986884,São Paulo
+Luciano Cosentino,987284,Montevideo Wanderers
 Roan Wilson,987358,Limón FC
 Julien Duranville,987493,Anderlecht
 Zé Guilherme,989093,Grêmio
@@ -9961,6 +10118,7 @@ João Araújo,998510,Grêmio
 Coba da Costa,998525,UD Maracena
 Thalles,998543,Botafogo-SP
 Gustavo Lopes,998835,Ponte Preta
+Yuri,998836,Atlético Goianiense
 Ryan One,998952,Hamilton
 Miguelito,999773,Santos
 Enzo Monteiro,999774,Santos
@@ -9973,11 +10131,13 @@ Diego Mendez,1001613,Rayo Vallecano
 Pablo Muñoz,1001614,Rayo Vallecano
 Kévin Pedro,1002402,Saint-Étienne
 Mathis Amougou,1002404,Saint-Étienne
+Bernardo Rodrigues,1003031,Operário Ferroviário
 Christian Gray,1003465,Waitakere United
 Pablinho,1003678,Novo Esporte Ipatinga
 Matthew Ellis,1003922,Auckland City
 Elias Mokwana,1003972,Platinum City Rovers
 Vinicius Peixoto,1004016,Nacional-SP
+Kerlinho,1004389,Volta Redonda
 Felipe Teresa,1004477,Flamengo
 Milos Lukovic,1004725,IMT
 Fallou Fall,1004756,FK Graficar
@@ -9988,6 +10148,7 @@ Dembo Sylla,1006088,Laval
 Gorka Rivera,1006303,Getafe
 Álex Revuelta,1006304,Guadalajara
 Alejandro Alfaro,1006306,Elche
+Kauã Moraes,1006490,Athletico Paranaense
 Semeu Commey,1006965,Trofense
 Gustavo Daniel,1007087,ABC
 Leon Chiwome,1007862,Wolverhampton
@@ -10013,12 +10174,14 @@ Patrick Dorgu,1010415,Lecce
 Asier Osambela,1010992,Osasuna
 Unai Gómez,1011043,Athletic Bilbao
 Assan Ouédraogo,1011204,Schalke 04
+Kauã Gomes,1011274,Cambé
 Fermín López,1011504,Barcelona
 George Ilenikhena,1011524,Amiens
 Yoram Zague,1011530,PSG
 Rabby Nzingoula,1011552,Strasbourg
 Yanis Issoufou,1011647,Montpellier
 Yaya Fofana,1012098,AFE
+Wallace,1012832,CRB
 Yankuba Minteh,1013125,Steve Biko
 Lamine Yamal,1013243,Barcelona
 Enso González,1013249,Libertad
@@ -10029,6 +10192,7 @@ Adrián Niño,1014268,Atlético Madrid
 Abdellah Raihani,1014269,Atlético Madrid
 Alieu Njie,1014293,Forssa BK
 Tommaso Martinelli,1014315,Fiorentina
+Thales,1014585,Criciúma
 Midana Cassamá,1015104,Bissau e Benfica
 Sebastian Otoa,1015340,Aalborg BK
 Joshua King,1015398,Fulham
@@ -10045,6 +10209,7 @@ Raed Bouchniba,1017398,Espérance de Tunis
 Deniz Gül,1018274,Hammarby
 Chido Obi,1018890,Manchester United
 Bilal Mazhar,1019319,Panathinaikos
+Arthur Dias,1019850,Athletico Paranaense
 Joaquín Panichelli,1021345,Alavés
 Daniel Requena,1021482,Villarreal
 Joachim Kayi Sanda,1021981,Valenciennes
@@ -10056,6 +10221,7 @@ Leonardo Mendicino,1026031,Atalanta
 Enzo Mongo,1027919,Nantes
 Harry Howell,1028195,Brighton & Hove Albion
 David Odogu,1028604,Wolfsburg
+João Almeida,1028765,Coritiba
 Ilhan Fakili,1030429,Clermont
 Bruno,1031469,Vasco
 Almugera Kabar,1032587,Borussia Dortmund
@@ -10064,6 +10230,7 @@ Andrea Ferraris,1032623,Monza
 Nito Gomes,1032720,Bissau e Benfica
 Bassirou Ndiaye,1033048,Sochaux
 David Ankeye,1033138,Sidos FC
+Matheus Galdino,1033315,Operário Ferroviário
 Rayan Fofana,1034476,Lens
 John Mellberg,1034544,Red Bull Salzburg
 Fran González,1035270,Real Madrid
@@ -10080,12 +10247,14 @@ Ayyoub Bouaddi,1039504,Lille
 Riquelme,1041075,Red Bull Bragantino
 Tevis,1041103,Cruzeiro
 Mateus Xavier,1042221,Santos
+João Caixeta,1042286,Vila Nova
 Mauro Bravo,1044543,Londrina
 Kouakou Gadou,1046206,Red Bull Salzburg
 Gabriel Carvalho,1046479,Internacional
 Isaque,1047578,Fluminense
 Paul Villero,1047727,Ovetense FC
 Ayden Heaven,1048202,Arsenal
+Luis Henrique,1048805,Cuiabá
 Andrés García,1049037,Levante
 David,1049226,Cuiabá
 Ngal´ayel Mukau,1049714,KV Mechelen
@@ -10112,7 +10281,9 @@ Cheick Oumar Konaté,1068599,Guidars FC
 Afonso Assis,1069591,Moreirense
 Dani Díaz,1074004,Real Sociedad
 Jon Martín,1074021,Real Sociedad
+Iarley Brito,1078241,Paysandu
 João Victor,1092016,Flamengo
+Marllon,1092034,Athletic-MG
 Kauê,1094008,Operário-MT
 Junior Ajayi,1116089,Hellas Verona
 Sadibou Sané,1117551,Génération Foot
@@ -10130,6 +10301,7 @@ Jonah Kusi-Asare,1165778,AIK
 Seo Myeong-kwan,1166836,Bucheon 1995
 Shio Fukuda,1169339,Borussia M'gladbach
 Mattia Liberali,1171590,Milan
+Danilo Cunha,1172758,Goiás
 Noahkai Banks,1173217,FC Augsburg
 Maat Caprini,1174475,Fiorentina
 Pedro Manoel,1175981,Boston City Brasil
@@ -10143,6 +10315,8 @@ Tommaso Rubino,1179672,Fiorentina
 Malcolm Jeng,1179869,Sirius
 Omar El Hilali,1180279,Espanyol
 Darryl Bakola,1180553,Marseille
+Nathan Cruz,1181549,Cuiabá
+Murilo Camara,1182098,Rio Branco-SP
 Samu Omorodion,1182294,Granada
 Théo Trinker,1183006,Nice
 Tallyson Carlos,1183330,Goiás
@@ -10175,6 +10349,7 @@ Rodrigo Abajas,1205747,Rayo Majadahonda
 Íñigo Arguibide,1205880,Osasuna
 Mikel Jauregizar,1205882,Athletic Bilbao
 Matteo Palma,1212022,Udinese
+Samuel Otusanya,1212450,Haugesund
 Jonathan Norbye,1217908,Alta IF
 Luc Zogbe,1217916,LYS FC
 Abdraman Konaté,1217922,Espérance de Tunis
@@ -10182,6 +10357,7 @@ Aaron Anselmino,1219391,Boca Juniors
 Assane Diao,1227451,Real Betis
 Kayke Santos,1231554,Athletico Paranaense
 Elías Montiel,1232234,Pachuca
+Lucas Rodrigues,1232756,Goiás
 Matías Moreno,1233114,Belgrano
 Tomás Pérez,1233384,Newell's Old Boys
 Alexei Domínguez,1233648,Pachuca
@@ -10210,6 +10386,7 @@ Pau Navarro,1244953,Villarreal
 Sergio Palacios,1245226,Once Caldas
 Abdoul Traore,1246254,Binga FC
 Robinio Vaz,1246638,Sochaux
+João Miguel,1246870,Barra-SC
 Tommaso Gabellini,1247315,Torino
 Marc Bernal,1247775,Barcelona
 Chrisantus Uche,1248319,Moralo
@@ -10245,19 +10422,25 @@ Ismael Bekhoucha,1273891,San Sebastián Reyes
 Ibrahim Mbaye,1275148,PSG
 Sergiu Perciun,1280145,Torino
 Juma Bah,1283322,Freetown City
+Jamerson,1286594,Torres Brasil
 Plamedi Nsingi,1291434,AS Audincourt
 Ange Tia,1293257,Stade de Reims
 Justin Bourgault,1293357,Stade Briochin
 Hamidou Makalou,1294086,Guidars FC
 Rachad Fettal,1295176,Almería
+Raimundo,1297503,Vila Nova
 Jeff Ekhator,1320931,Genoa
 Roger Hinojo,1323487,Espanyol
 Juliano,1330622,Red Bull Bragantino
 Alejandro Villarreal,1332139,Santos
 Lorenzo Venturino,1337860,Genoa
+Steven Nufour,1357326,Ceará
+Gabriel Queiroz,1357607,Athletic-MG
 Yassin Tallal,1361217,Getafe
 Gerardo Fusco,1361687,Salernitana
 Giovanni Leoni,1363614,Padova
+Kauã Hinkel,1368334,Paysandu
+Felipe Pasadore,1376374,Tiro Federal
 Honest Ahanor,1376464,Genoa
 Pape Sissoko,1390724,AFE
 Nuha Jatta,1393717,RB Leipzig
@@ -10269,8 +10452,11 @@ Yassir Zabiri,1410617,Union Touarga
 Serigne Diop,1411884,Brest
 Gabin Capuano,1429686,Olympique Valence
 Jeremy Monga,1523582,Leicester City
+Gabriel Cardozo,1532058,Operário Ferroviário
 Thomas Campaniello,1533725,Empoli
 Axel Tape,1539654,PSG
+Nicolas Tedesco,1539699,Avaí
+Josmar,1539702,Avaí
 Ivan MBahia,1543045,Clermont
 Edmund Baidoo,1544008,Sogndal
 Alberto Risco,1550370,Getafe
@@ -10278,8 +10464,10 @@ Kalani Kossa-Rienzi,1632996,Seattle Sounders
 Rudy Matondo,1634293,Auxerre
 Jan Salas,1656106,Mallorca
 Carlos Guirao,1699209,Leganés
+Matheus Capixaba,1808844,Paysandu
 Diego Martín,1808975,Las Palmas
 Abdoulie Ceesay,1812293,Real de Banjul
+Arthur Monteiro,1813582,Paysandu
 Viggo Gebel,1816905,RB Leipzig
 Faik Sakar,1816906,RB Leipzig
 Marc Domenech,1817754,Mallorca
@@ -10305,6 +10493,8 @@ Selemani Mwalimu,2524965,WAC
 Yan Diomande,2529251,AS Frenzi
 Dylan Connolly,2529372,Lucan United
 Amadu Niang,2529456,Sonacos Djourbel
+Wendel,2655241,Amazonas FC
 Arturo Cosano,2695880,Las Palmas
 José Carlos González,2696073,Las Palmas
 Joshua Udoh,2737295,Al Ain
+Hanner Rojas,2750433,Amazonas FC
